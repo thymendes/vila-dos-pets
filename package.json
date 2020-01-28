@@ -1,0 +1,10 @@
+{
+  "name": "viladospets",
+  "version": "1.0.0",
+  "description": "trabalho da faculdade ficr",
+  "author": "equipe 06",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  }
+ }

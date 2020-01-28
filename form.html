@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vila dos Pets</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.png" width="200" height="40"
+          alt="" /></a>
+      <!-- Menu  -->
+      <ul id="encontreumamigo" class="dropdown-content">
+        <li><a href="gato.html">Gato</a></li>
+        <li class="divider"></li>
+        <li><a href="cao.html">Cão</a></li>
+        <li class="divider"></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="dropdown-trigger" href="#!" data-target="encontreumamigo">Encontre um amigo<i
+              class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="como.html">Como funciona</a></li>
+        <li><a href="adocao.html">Sobre a adoção</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>      
+      <!-- Fim do menu  -->
+      <!-- Menu mobile  -->
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="como.html">Como funciona</a></li>
+        <li><a href="adocao.html">Sobre a adoção</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <!-- Fim do menu mobile -->  
+
+  <div class="section container">
+
+    <div class="section">
+      <div class="">
+        <div class="col s6 l6 ">
+          <h3 align="center">Formulário de Adoção</h3><br>
+          <h7>Este formulário serve para que possamos conhecê-lo(a) melhor e ajudá-lo(a) na escolha de um animal que mais se adapte ao seu perfil e da sua família.</h7><br><br>
+          <h7>Por favor, preencha todos os campos com cuidado e da maneira mais completa possível, contando tudo o que julgar necessário e, também, deixando todas as dúvidas que tiver para que possamos esclarecê-las.</h7>
+        </div>
+      </div>
+    </div>
+    
+      <div class="section">
+        <div class="row">
+          <div class="col s6 l6 ">
+            <h4>Sobre você</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Digite seu nome completo" id="first_name" type="text" class="validate">
+              <label for="first_name">Nome Completo</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="number" class="validate">
+              <label for="last_name">Idade</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Digite seu endereço" id="first_name" type="text" class="validate">
+              <label for="first_name">Endereço</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Bairro</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s6">
+              <input placeholder="Digite seu e-mail" id="first_name" type="email" class="validate">
+              <label for="first_name">E-mail</label>
+            </div>
+            <div class="input-field col s6">
+              <input placeholder="(xx) xxxxx-xxxx" id="last_name" type="number" class="validate">
+              <label for="last_name">Telefone Celular</label>
+            </div>
+          </div>
+
+          <form>
+            <p>
+              <label>
+                <label>Como ficou sabendo da Vila dos Pets?</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>Via Google</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Via Facebook</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>via Instagram</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>por indicação de amigos</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Outros</span>
+              </label><br>
+            </p>
+          </form>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Por que motivos você gostaria de adotar esse animal?</label>
+            </div>
+          </div>
+
+          <form>
+            <p>
+              <label>
+                <label>Você tem condições de acrescentar ao seu orçamento gastos que terá com alimentação de qualidade,
+                  areia higiênica e atendimento veterinário?</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>Sim</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Não</span>
+              </label><br>
+            </p>
+          </form>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Irá presentear alguém com esse animal? Se sim, a pessoa que irá ganhá-lo e a família
+                dela estão cientes disso?</label>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col s6 l6 ">
+                <h4>Sobre sua Família</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Na sua residência, há quantos adultos e quantas crianças?</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Se há crianças, qual a idade delas?
+              </label>
+            </div>
+          </div>
+
+          <form>
+            <p>
+              <label>
+                <label>Todos concordam com a adoção desse animal?</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>Não moro com outras pessoas.</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Sim. Já comuniquei e todos concordaram com a adoção.</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Não. Alguns membros não concordam com a adoção.</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Ainda não falei com eles sobre a adoção.</span>
+              </label>
+            </p>
+          </form>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Alguém na sua residência é ou pode ser alérgico (tem um histórico de alergias)? Se sim,
+                quais medidas serão tomadas caso adotem um pet?</label>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col s6 l6 ">
+                <h4>Sobre sua Residência</h4>
+              </div>
+            </div>
+          </div>
+
+          <form>
+            <p>
+              <label>
+                <label>Você mora em apartamento ou casa?</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>Apartamento</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Casa</span>
+              </label><br>
+            </p>
+          </form>
+
+          <form>
+            <p>
+              <label>
+                <label>Sua residência</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>É alugada</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>É própria</span>
+              </label><br>
+            </p>
+          </form>
+
+          <form>
+            <p>
+              <label>
+                <label>Se você mora em condomínio, sabe qual é a posição deles sobre ter animais?</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>Não moro em condomínio</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Eles permitem ter animais</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Eles não permitem ter animais</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>Irei consultar sobre a permissão de ter animais</span>
+              </label>
+            </p>
+          </form>
+
+          <div class="section">
+            <div class="row">
+              <div class="col s6 l6 ">
+                <h4>Sobre a Rotina da Família</h4>
+              </div>
+            </div>
+          </div>
+
+          <form>
+            <p>
+              <label>
+                <label>Quantas horas por dia o animal ficará sozinho na residência?</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>não ficará sozinho em nenhum momento</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>por até 4h/dia</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>por até 8h/dia</span>
+              </label><br>
+              <label>
+                <input class="with-gap" name="group3" type="radio" />
+                <span>por mais de 8h</span>
+              </label>
+            </p>
+          </form>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Quem tomará conta do animal quando você e sua família viajarem?</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Se mudarem de residência, o que farão com o animal?</label>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col s6 l6 ">
+                <h4>Seus Animais</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Você tem outros animais de estimação no momento? Se sim, quais? Ele(s) é(são)
+                castrado(s)?</label>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Você já teve outro(s) animal(is)? Se sim, o que aconteceu com eles? Se faleceram, qual
+                foi a causa?</label>
+            </div>
+          </div>
+
+          <div class="section">
+            <div class="row">
+              <div class="col s6 l6 ">
+                <h4>Sua Opinião</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Qual a sua opinião sobre castração?</label>
+            </div>
+          </div>
+
+          
+
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="text" type="text" class="validate">
+              <label for="text">Observações?</label>
+            </div>
+          </div>
+
+          <button class="btn" type="submit">Enviar</button>
+          <button class="btn" type="reset">Limpar</button>
+
+        </form>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre Nós</h5>
+          <p class="grey-text text-lighten-4">Somos um site dedicado a facilitar a adoção de pets visando diminuir a
+            quantidade de animais abandonados nas ruas, oferecendo uma vida digna a esses bichinhos. Queremos ser
+            referência em adoção e bem estar dos pets. </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <a class="brown-text text-lighten-3" href="http://materializecss.com">2019</a>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>

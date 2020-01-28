@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vila dos Pets</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo"><img src="img/logo.png" width="200" height="40"
+          alt="" /></a>
+      <!-- Menu  -->
+      <ul id="encontreumamigo" class="dropdown-content">
+        <li><a href="gato.html">Gato</a></li>
+        <li class="divider"></li>
+        <li><a href="cao.html">Cão</a></li>
+        <li class="divider"></li>
+      </ul>
+      <ul class="right hide-on-med-and-down">
+        <li><a class="dropdown-trigger" href="#!" data-target="encontreumamigo">Encontre um amigo<i
+              class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="como.html">Como funciona</a></li>
+        <li><a href="adocao.html">Sobre a adoção</a></li>
+        <li><a href="cadastro.html" >Cadastro</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <!-- Fim do menu  -->
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="como.html">Como funciona</a></li>
+        <li><a href="adocao.html">Sobre a adoção</a></li>
+        <li><a href="#">Cadastro</a></li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="Destaque" "z-depth-4">Faça seu cadastro</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Junte-se a nós</h5>
+        </div>
+
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/background7.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+
+  <div class="section container">
+
+    <div class="row">
+
+      <div class="section">
+        <div class="row">
+          <div class="col s6 l6 ">
+            <h4>Faça seu cadastro</h4>
+          </div>
+        </div>
+      </div>
+        <form class="col s12">
+
+          <div class="row card-panel">
+
+            <div class="input-field col s12">
+
+              <input type="text" placeholder="insira seu Nome" id="nome" class="validate" required>
+              <label for="nome">Nome:</label>
+
+            </div>
+            
+            <p>
+              <label>
+                <label>Sexo</label><br>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>Marculino</span>
+              </label>
+              <label>
+                <input class="with-gap" name="group3" type="radio" checked />
+                <span>Feminino</span>
+              </label>
+            </p>
+
+            <div class="input-field col s6">
+
+              <input type="text" placeholder="insira seu Email" id="email" class="validate" required>
+              <label for="email">Cadastre seu Email:</label>
+
+            </div>
+
+            <div class="input-field col s6">
+
+              <input type="password" placeholder="cadastre sua senha" id="password" class="validate" required>
+              <label for="senha">Senha:</label>
+
+            </div>
+
+            <div class="input-field col s6">
+
+              <input type="text" placeholder="insira seu fone" id="fone" class="validate" required>
+              <label for="fone">Fone:</label>
+
+            </div>
+
+            <div class="input-field col s6">
+
+              <input type="text" placeholder="insira seu fone" id="fone2" class="validate" required>
+              <label for="fone2">Fone 2: :</label>
+
+            </div>
+
+            <button class="btn" type="submit">Enviar</button>
+
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Sobre Nós</h5>
+          <p class="grey-text text-lighten-4">Somos um site dedicado a facilitar a adoção de pets visando diminuir a
+            quantidade de animais abandonados nas ruas, oferecendo uma vida digna a esses bichinhos. Queremos ser
+            referência em adoção e bem estar dos pets. </p>
+
+        </div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <a class="brown-text text-lighten-3" href="http://materializecss.com">2019</a>
+      </div>
+    </div>
+  </footer>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
